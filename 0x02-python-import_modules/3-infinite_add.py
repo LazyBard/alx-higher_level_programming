@@ -1,4 +1,5 @@
-dd_arg(argv):
+#!/usr/bin/python3
+def add_arg(argv):
     n = len(argv) - 1
     if n == 0:
         print("{:d}".format(n))
